@@ -1,0 +1,19 @@
+.indexvideo {
+    min-width:100% !important;
+    height: auto !important;
+    right:0;
+    left:0;
+}
+
+/* If the viewport width <= 480 pixels ... */
+@media screen and (max-width: 480px) {
+    #indexvideo{
+        display: none;
+    }
+    .navbar-transparent {
+        background: #FFFFFF !important; /*Add your own background*/
+    }
+    #mobiletoggle {
+        /*disappears on screen resize with transparent menu*/
+    }
+}

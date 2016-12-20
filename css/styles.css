@@ -1,0 +1,347 @@
+/*Menu button CSS*/
+.menubutton {
+    /*Styles for button shape*/
+    display: block;
+    height: 50px;
+    width: 150px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    
+    /*Styles for button text*/
+    color: white;
+    text-align: center;
+    font: bold 20px "Georgia";
+    
+    /*Styles for CSS3*/
+    background: linear-gradient(top, #34696F, #2F5F63);
+    text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+    
+    margin-left: 20px;
+}
+
+#historynavigationbar {
+    background-color: #8F2221;
+}
+
+#searchnavigationbar {
+    background-color: #FAAF4C;
+}
+
+#storiesnavigationbar {
+    background-color: #655184;
+}
+
+#contactnavigationbar {
+    background-color: #DE6731;
+}
+
+.navbar {
+    height: 60px;
+}
+
+.navbar-brand {
+    padding: inherit;
+}
+
+.nav {
+    padding: 5px;
+    padding-right: 20px;
+}
+
+#history:hover { 
+    color: #FFFFFF !important;
+    background-color: #8F2221 !important;
+    opacity: 1;
+}
+
+#search:hover { 
+    color: #FFFFFF !important;
+    background-color: #FAAF4C !important;
+    opacity: 1;
+}
+
+#stories:hover { 
+    color: #FFFFFF !important;
+    background-color: #655184 !important;
+    opacity: 1;
+}
+
+#contact:hover { 
+    color: #FFFFFF !important;
+    background-color: #DE6731 !important;
+    opacity: 1;
+}
+
+
+/*Footer*/
+#footer {
+    width: 100%;
+}
+
+#footerlogo {
+    width: 55%;
+    height: 75%;
+}
+
+#footertext {
+    width: 60%;
+    padding-top: 30px;
+}
+
+
+/*Elements which appear on all pages*/
+.pageheadings {
+    font-family: "Georgia";
+}
+
+#mainheading {
+    font-family: "Georgia";
+    text-decoration: underline;
+    text-decoration-color: gold;
+    color: darkred;
+    font-style: italic;
+}
+
+#pagedivider {
+    height: 1px !important;
+    color: gold !important;
+    background-color: gold !important;
+}
+
+.twinmainimage {
+    height: 400px;
+    width: 320px;
+}
+
+p, input, label, textarea {
+    font-family: "Georgia", Times, serif;
+    font-size: 16px; /*large*/
+}
+
+legend {
+    font-weight: bold;
+    font-family: "Georgia", Times, serif;
+    font-size: 25px;
+}
+
+/*Home page*/
+#ahomelogo {
+    height: 25px;
+}
+
+
+/*History section banner images*/
+.historytopimage {
+    height: 400px;
+    width: 700px;
+}
+
+.historysubimages {
+    height: 400px;
+    width: 680px;
+}
+
+.timelinesmallheader {
+    width: 300px;
+}
+
+
+/*Search section*/
+#searchmainimage {
+    height: 400px;
+    width: 700px;
+}
+
+.searchboximage {
+    height: 700px;
+    width: 700px;
+}
+.searchsubimages {
+    height: 400px;
+    width: 700px;
+}
+
+#searchpanel {
+    width: 350px;
+    background-color: #91221d;
+    height: 500px;
+	border-radius: 10px;
+}
+
+#browsebutton {
+    display: block;
+    height: 30px;
+    border: 2px solid #91221d;
+    border-radius: 5px;
+    color: black;
+    text-emphasis: bold;
+    text-align: center;
+	background-color: white;
+}
+
+.searchlabel {
+    color: white;
+    font-family: "Georgia";
+    font-weight: bold;
+}
+
+#searchCarousel {
+    height: 400px;
+	width:  700px;
+}
+.searchcarouselimg {
+    height: 500px;
+    width: 700px;
+}
+
+.searchcheck {
+    height: 20px;
+    width: 20px;
+	background-color: white;
+	
+}
+
+#yearrange {
+    width:120px;
+}
+
+.searchheading {
+	
+    font-family: Georgia;
+	font-style: oblique;
+    font-weight: bold;
+	 text-decoration: underline;
+    -moz-text-decoration-color: red; /* Code for Firefox */
+    text-decoration-color: solid #91221d;
+	color:  #91221d; 
+	background-color:  none;	
+}
+
+.multidocumentimage {
+    width: 390px; /*390px to touch*/
+    height: 250px;
+    padding: 0px;
+}
+
+#maintimeline {
+    width: 100%;
+}
+
+.subtimelines {
+    width: 95%;
+    float: right;
+}
+
+#timelineheading {
+    width: 100%;
+}
+
+
+/*Stories section*/
+#childrensbackground {
+    background-image: url("http://cdn.wallpapersafari.com/89/21/JD9L2H.jpg");
+    background-size: 100% 500px;
+}
+
+.childrensimage {
+    width: 300px;
+    height: 300px;
+    padding: 0px;
+	
+}
+
+#storiesmainimage {
+    width: 800px;
+    height: 400px;
+}
+
+.storiessubimages {
+    height: 600px;
+    width: 100%;
+}
+
+#avheading {
+    font-family: "Georgia";
+    text-align: center;
+    align-content: center;
+}
+
+.avmenu {
+    height: 300px;
+    width: 300px;
+    align-content: center;
+}
+
+.avtext {
+    align-content: right;
+}
+
+#tellastoryform {
+    width:500px;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    float: left;
+}
+
+#tellastorycarousel {
+    width:600px;
+    min-height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    float: right;
+}
+
+.multigalleryimage {
+    width: 325px;
+    height: 280px;
+    padding: 0px;
+}
+
+.avimages {
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+
+#storiestable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#storiestable td, #storiestable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#storiestable tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#storiestable tr:hover {
+    background-color: #ddd;
+}
+
+#storiestable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #800080;
+    color: white;
+}
+
+/*No difference in childrens headings yet but can be easily changed*/
+#mainchildrensheading {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.childrensheading {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.childrenstext {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+

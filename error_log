@@ -1,0 +1,20 @@
+[16-Oct-2016 13:55:03 America/Chicago] PHP Fatal error:  Call to undefined method Admin_model::get_all_fuzzy_family_name_and_date() in /home/we40t5/public_html/application/controllers/Sitecontrol.php on line 439
+[16-Oct-2016 13:59:29 America/Chicago] PHP Fatal error:  Call to undefined method Admin_model::get_all_fuzzy_family_name_and_date() in /home/we40t5/public_html/application/controllers/Sitecontrol.php on line 439
+[16-Oct-2016 13:59:38 America/Chicago] PHP Fatal error:  Call to undefined method Admin_model::get_all_fuzzy_family_name_and_date() in /home/we40t5/public_html/application/controllers/Sitecontrol.php on line 439
+[16-Oct-2016 14:02:52 America/Chicago] PHP Fatal error:  Call to undefined method Admin_model::get_all_fuzzy_family_name_and_date() in /home/we40t5/public_html/application/controllers/Sitecontrol.php on line 439
+[16-Oct-2016 14:06:28 America/Chicago] PHP Fatal error:  Call to undefined method Admin_model::get_all_fuzzy_first_name_and_date() in /home/we40t5/public_html/application/controllers/Sitecontrol.php on line 441
+[16-Oct-2016 14:21:43 America/Chicago] PHP Fatal error:  Call to undefined method Admin_model::get_all_fuzzy_first_name_and_date() in /home/we40t5/public_html/application/controllers/Sitecontrol.php on line 441
+[25-Oct-2016 06:13:22 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/we40t5/public_html/application/controllers/Contact.php on line 27
+[25-Oct-2016 06:13:26 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/we40t5/public_html/application/controllers/Contact.php on line 27
+[25-Oct-2016 06:14:28 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/we40t5/public_html/application/controllers/Contact.php on line 27
+[25-Oct-2016 06:14:31 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/we40t5/public_html/application/controllers/Contact.php on line 27
+[25-Oct-2016 06:14:33 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/we40t5/public_html/application/controllers/Contact.php on line 27
+[25-Oct-2016 06:14:37 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/we40t5/public_html/application/controllers/Contact.php on line 27
+[25-Oct-2016 06:17:12 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/we40t5/public_html/application/controllers/Contact.php on line 27
+[25-Oct-2016 06:54:43 America/Chicago] PHP Parse error:  syntax error, unexpected ''from@example.com'' (T_CONSTANT_ENCAPSED_STRING) in /home/we40t5/public_html/application/controllers/Contact.php on line 27
+[25-Oct-2016 06:54:47 America/Chicago] PHP Parse error:  syntax error, unexpected ''from@example.com'' (T_CONSTANT_ENCAPSED_STRING) in /home/we40t5/public_html/application/controllers/Contact.php on line 27
+[27-Oct-2016 16:35:07 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/we40t5/public_html/application/controllers/Sitecontrol.php on line 472
+[27-Oct-2016 16:35:34 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/we40t5/public_html/application/controllers/Sitecontrol.php on line 472
+[27-Oct-2016 16:35:35 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/we40t5/public_html/application/controllers/Sitecontrol.php on line 472
+[27-Oct-2016 16:35:42 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/we40t5/public_html/application/controllers/Sitecontrol.php on line 472
+[31-Oct-2016 15:19:31 America/Chicago] PHP Fatal error:  Cannot use object of type mysqli as array in /home/we40t5/public_html/application/views/story_pages/index.php on line 30

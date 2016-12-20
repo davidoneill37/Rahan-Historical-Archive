@@ -1,0 +1,71 @@
+<br>
+
+<div class="container">
+<div class="row">
+<div class="col-lg-7,col-md-6,col-sm-5,col-xs-7" id="tellastoryform">
+
+<?php
+$this->load->helper('form');//only used once in this view to save overhead only load here
+
+if (isset($submitsuccess))
+{
+    ?>
+    <div id="formsuccessmessage">
+    <?php echo $submitsuccess;//will show in else statement in controller ?>
+    </div>
+    <?php
+}
+
+else if (isset($submitfailure))
+{
+    ?>
+    <div id="formfailuremessage">
+    <?php echo $submitfailure; ?>
+    </div>
+    <?php
+}
+
+echo validation_errors();//put into a seperate div and style with CSS Loads built in validation feature and displays under form
+    
+echo form_open("Contact/contactUs");//CI fxn with controller/fxn in controller
+
+echo form_label("Your name: ", "name"); //First is display second is what its a label for
+$data = array(
+    "name"=>"name",
+    "id"=>"name",
+    "value"=>set_value("name")//if error on submit, this will keep enetered value on screen to edit
+);
+echo form_input($data);
+
+echo form_label("Your email: ", "email");
+$data = array(
+    "name"=>"email",
+    "id"=>"email",
+    "value"=>set_value("email")
+);
+echo form_input($data);
+
+echo form_label("Your story: ", "message");
+$data = array(
+    "name"=>"message",
+    "id"=>"message",
+    "value"=>set_value("message")
+);
+echo form_textarea($data);
+
+echo form_submit("submit", "Send!");
+
+echo form_close();
+    
+?>
+</div><!--end form column-->
+
+<div class="col-lg-5,col-md-6,col-sm-7,col-xs-5" id="tellastorycarousel">
+   <br><br>
+<p>
+    We'd love to hear from you. If you have a story, a piece of folklore or a myth connected with Rahan, please get in touch by completing this contact form or by emailing rahanhistoricalarchive@gmail.com
+</p>
+
+</div><!--End row-->
+</div><!--End container-->
+<br><br>

@@ -1,0 +1,1 @@
+<p>Graveyard record added successfully!</p>

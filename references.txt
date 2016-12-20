@@ -1,0 +1,8 @@
+http://stackoverflow.com/questions/16625972/change-color-of-bootstrap-navbar-on-hover-link
+https://www.youtube.com/watch?v=7OvlrBataNc
+http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video
+https://designshack.net/articles/css/css-button-tutorial-how-to-code-buttons-in-5-simple-steps/
+https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
+http://www.elated.com/articles/responsive-web-design-5-handy-tips/
+https://github.com/bcit-ci/CodeIgniter/wiki/Mod-rewrite
+http://stackoverflow.com/questions/21318150/how-to-load-different-css-for-different-pages

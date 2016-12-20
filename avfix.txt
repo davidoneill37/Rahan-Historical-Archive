@@ -1,0 +1,5 @@
+Add to htasccess at root level to get videos working
+
+AddType audio/ogg oga ogg
+AddType video/ogg ogv
+AddType video/webm .webm
